@@ -27,22 +27,22 @@ const SideBar = () => {
           <div className="flex flex-col my-6 lg:ml-6 mx-auto justify-between ">
             <FaBox size={40} className="my-3 text-red-600" />
             <IoIosPersonAdd size={40} className="mt-6 text-slate-500 " />
-            < BsCalendar2EventFill size={33} className="mt-6 text-slate-500 " />
+            < BsCalendar2EventFill size={31} className="mt-6 pl-1 text-slate-500 " />
             <IoIosPeople size={40} className="mt-6 text-slate-500 " />
-            <BsDiscFill size={35} className="mt-6  text-slate-500" />
-            <SlEarphonesAlt size={40} className="mt-24 text-slate-500 " />
-            <IoSettingsOutline size={40} className=" mt-6 text-slate-500" />
+            <BsDiscFill size={35} className="mt-6 pl-1 text-slate-500" />
+            <SlEarphonesAlt size={30} className="mt-36  text-slate-500 " />
+            <IoSettingsOutline size={35} className=" mt-7 text-slate-500" />
           </div>
 
           <div className=" hidden lg:flex px-6">
-            <div className=" text-xl font-semibold mt-12">
+            <div className=" text-xl font-semibold mt-11">
               <h1 className="text-red-600">Dashboard</h1>
-              <h1 className=" mt-10">Recruitmnet</h1>
-              <h1 className=" mt-10">Schedule</h1>
-              <h1 className=" mt-10">Employee</h1>
-              <h1 className=" mt-8">Departement</h1>
+              <h1 className=" mt-12">Recruitmnet</h1>
+              <h1 className=" mt-9">Schedule</h1>
+              <h1 className=" mt-9">Employee</h1>
+              <h1 className=" mt-9">Departement</h1>
 
-              <h1 className="mt-28">Support</h1>
+              <h1 className="mt-36 ">Support</h1>
               <h1 className="mt-10">Settings</h1>
             </div>
           </div>

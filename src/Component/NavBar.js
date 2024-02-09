@@ -30,14 +30,14 @@ const NavBar = () => {
       {toggle && <div className=" absolute top-20 left-2 "> <SideBar /></div>}
 
       {/* Search Bar */}
-      <div className="flex items-center border-2 m-2 p-2 w-4/12 rounded-lg bg-slate-50">
+      <div className="flex items-center hiiden md:border-2 m-2 p-2 w-4/12 rounded-lg md:bg-slate-50 ">
         <input
           type="text"
           placeholder="Search"
-          className="w-full outline-none bg-slate-50 "
+          className="w-full outline-none bg-slate-50  hidden md:block "
         />
         <span>
-          <CiSearch className="ml-2 text-2xl text-gray-500" />
+          <CiSearch className="ml-2 text-2xl  text-gray-500" />
         </span>
       </div>
 
