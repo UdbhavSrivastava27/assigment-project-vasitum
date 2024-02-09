@@ -42,11 +42,11 @@ const NavBar = () => {
       </div>
 
       {/* info bar  */}
-      <div className=" flex flex-row items-center justify-center  mr-10">
+      <div className=" flex flex-row items-center justify-center  mr-5">
         <IoIosNotifications size={30} className=" mr-4 text-slate-500" />
         <RiMessage2Line size={30} className=" mr-4 text-slate-500" />
         <FaUserCircle size={30} className=" text-slate-500" />
-        <p className=" ml-2">Admirra John</p>
+        <p className=" ml-2 hidden lg:block">Admirra John</p>
         <FaAngleDown size={20} className=" ml-2 opacity-60" />
       </div>
     </div>
