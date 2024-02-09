@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../Constant/logo.png";
 import { FaBox } from "react-icons/fa6";
 import { IoIosPersonAdd } from "react-icons/io";
-import { FcCalendar } from "react-icons/fc";
 import { IoIosPeople } from "react-icons/io";
 import { BsDiscFill } from "react-icons/bs";
 import { SlEarphonesAlt } from "react-icons/sl";
