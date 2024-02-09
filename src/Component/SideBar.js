@@ -16,7 +16,7 @@ const SideBar = () => {
       <div className=" w-auto h-screen flex-1 ">
         <div className="flex items-center justify-center mt-4">
           <img src={Logo} className=" m-2 " alt="logo" />
-          <img src={LogoName} className=" m-2 hidden lg:flex" />
+          <img src={LogoName}  alt = "logo name "className=" m-2 hidden lg:flex" />
         </div>
 
         <p className="  text-xs lg:text-sm ml-6  mt-14 font-semibold text-slate-400 ">

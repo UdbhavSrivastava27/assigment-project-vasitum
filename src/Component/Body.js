@@ -64,7 +64,7 @@ const Body = () => {
                 </div>
 
                 <span className=" absolute right-0">
-                  <img src={frame2} className=" mt-10  h-32 mr-4" sizes />
+                  <img src={frame2} alt="graph" className=" mt-10  h-32 mr-4" sizes />
                 </span>
               </div>
 
@@ -80,7 +80,7 @@ const Body = () => {
                 </div>
 
                 <span className=" absolute  right-0">
-                  <img src={frame5} className=" mt-10  h-32 mr-4" />
+                  <img src={frame5} alt="graph" className=" mt-10  h-32 mr-4" />
                 </span>
               </div>
             </div>
